@@ -1,0 +1,38 @@
+@CHARSET "ISO-8859-1";
+
+.carousel{
+	position: relative;
+	overflow: hidden;
+}
+.carousel .carousel-container-out{
+	overflow: hidden;
+	position: relative;
+}
+.carousel .carousel-slider{
+	list-style: none;
+	float: left;
+	border: 1px solid black;
+    display: block;
+    float: left;
+    margin-right: 7px;
+}
+.carousel.linear-carousel .carousel-container-out{
+	width: 800px;
+}
+.carousel.linear-carousel .carousel-container-in{
+	width: 7000px;
+	height: inherit;
+}
+.carousel.vertical-carousel .carousel-container-out{
+	height: 500px;
+	width: 100px;
+}
+.carousel.vertical-carousel .carousel-container-in{
+	height: 500px;
+}
+
+.carousel-button{
+	padding: 10px; 
+	display: block;
+	cursor: pointer;
+}
