@@ -30,5 +30,5 @@ Needed
 
   * [jQuery](http://jquery.com/)
   * [jQuery UI](https://jqueryui.com/)
-  * [jquery.ui.carousel.js or jquery.ui.carousel.min.js]()
-  * [jquery.ui.carousel.css]()
+  * [jquery.ui.carousel.js](https://raw.githubusercontent.com/kkabilank/ui.carousel/master/jquery.ui.carousel.js) or [jquery.ui.carousel.min.js](https://raw.githubusercontent.com/kkabilank/ui.carousel/master/jquery.ui.carousel.min.js)
+  * [jquery.ui.carousel.css](https://raw.githubusercontent.com/kkabilank/ui.carousel/master/jquery.ui.carousel.css)
