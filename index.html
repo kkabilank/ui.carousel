@@ -7,89 +7,22 @@
 </head>
 <body>
 <br>
-<div style="width: 800px; text-align: right;">
-	<span id="leftButtonC1" class="carousel-button" style="float: left;"> < Move Left</span>
-	<span id="rightButtonC1" class="carousel-button">Move Right > </span>
-</div>
-<div id="linearCarousel" class="carousel linear-carousel">
-	<div id="itemContainer" class="carousel-container-out">
-		<div class="carousel-content">
-			<div id="parent" class="carousel-container-in">
-				<div class="carousel-slider"><img src="20020630_03dx022_small.jpg_tn"/></div>
-				<div class="carousel-slider"><img src="20020630_03dx027_small.jpg_tn"/></div>
-				<div class="carousel-slider"><img src="20020703_00dx026_small.jpg_tn"/></div>
-				<div class="carousel-slider"><img src="20020703_00dx031_small.jpg_tn"/></div>
-				<div class="carousel-slider"><img src="20020705_01dx026_small.jpg_tn"/></div>
-				<div class="carousel-slider"><img src="20020713_00dx031_Deth_Flowr_small.jpg_tn"/></div>
-				<div class="carousel-slider"><img src="20020715_01dx020_small.jpg_tn"/></div>
-				<div class="carousel-slider"><img src="20020715_01dx024_small.jpg_tn"/></div>
-				<div class="carousel-slider"><img src="20020722_03dx081_[Chicago]_divncoln_Park_Conservatory_small.jpg_tn"/></div>
-				<div class="carousel-slider"><img src="20020722_03dx087_[Chicago]_divncoln_Park_Conservatory_small.jpg_tn"/></div>
-			</div>
-		</div>
-	</div>
-</div>
-<br /><br />
-<div style="width: 800px; text-align: right;">
-	<span id="leftButtonC2" class="carousel-button" style="float: left;"> < Move Left</span>
-	<span id="rightButtonC2" class="carousel-button">Move Right > </span>
-</div>
-<div id="circularCarousel" class="carousel linear-carousel">
-	<div id="itemContainer" class="carousel-container-out">
-		<div class="carousel-content">
-			<div id="parent" class="carousel-container-in">
-				<div class="carousel-slider"><img src="20020630_03dx022_small.jpg_tn"/></div>
-				<div class="carousel-slider"><img src="20020630_03dx027_small.jpg_tn"/></div>
-				<div class="carousel-slider"><img src="20020703_00dx026_small.jpg_tn"/></div>
-				<div class="carousel-slider"><img src="20020703_00dx031_small.jpg_tn"/></div>
-				<div class="carousel-slider"><img src="20020705_01dx026_small.jpg_tn"/></div>
-				<div class="carousel-slider"><img src="20020713_00dx031_Deth_Flowr_small.jpg_tn"/></div>
-				<div class="carousel-slider"><img src="20020715_01dx020_small.jpg_tn"/></div>
-				<div class="carousel-slider"><img src="20020715_01dx024_small.jpg_tn"/></div>
-				<div class="carousel-slider"><img src="20020722_03dx081_[Chicago]_divncoln_Park_Conservatory_small.jpg_tn"/></div>
-				<div class="carousel-slider"><img src="20020722_03dx087_[Chicago]_divncoln_Park_Conservatory_small.jpg_tn"/></div>
-			</div>
-		</div>
-	</div>
-</div>
-<br /><br />
-<div style="width: 800px; text-align: right;">
-	<span id="leftButtonC3" class="carousel-button" style="float: left;"> ^ Move Up</span>
-	<span id="rightButtonC3" class="carousel-button">Move Down v </span>
-</div>
-<div id="verticalCarousel" class="carousel vertical-carousel">
-	<div id="itemContainer" class="carousel-container-out">
-		<div class="carousel-content">
-			<div id="parent" class="carousel-container-in">
-				<div class="carousel-slider"><img src="20020630_03dx022_small.jpg_tn"/></div>
-				<div class="carousel-slider"><img src="20020630_03dx027_small.jpg_tn"/></div>
-				<div class="carousel-slider"><img src="20020703_00dx026_small.jpg_tn"/></div>
-				<div class="carousel-slider"><img src="20020703_00dx031_small.jpg_tn"/></div>
-				<div class="carousel-slider"><img src="20020705_01dx026_small.jpg_tn"/></div>
-				<div class="carousel-slider"><img src="20020713_00dx031_Deth_Flowr_small.jpg_tn"/></div>
-				<div class="carousel-slider"><img src="20020715_01dx020_small.jpg_tn"/></div>
-				<div class="carousel-slider"><img src="20020715_01dx024_small.jpg_tn"/></div>
-				<div class="carousel-slider"><img src="20020722_03dx081_[Chicago]_divncoln_Park_Conservatory_small.jpg_tn"/></div>
-				<div class="carousel-slider"><img src="20020722_03dx087_[Chicago]_divncoln_Park_Conservatory_small.jpg_tn"/></div>
-			</div>
-		</div>
-	</div>
-</div>
+
 <script type="text/javascript">
 /**
- * options: {
- *  	"leftScroller" : "Button ID to which Left Navigation should be assigned Default DOM ID > leftButton",
- *  	"rightScroller" : "Button ID to which Right Navigation should be assigned Default DOM ID > rightButton",
- *		"upScroller" : "Button ID to which Top Navigation should be assigned Default DOM ID > topButton",
- *  	"downScroller" : "Button ID to which Bottom Navigation should be assigned Default DOM ID > bottomButton",
- *  	"visibleCount" : "Number of Visible Panels should be considered for Scroldivng. Auto Decided based on width if not set",
- *  	"navigatorCount" : "Number of items you want to Scroll when cdivcked Default > visibleCount",
- *  	"transitionTime" : "Sdivding time for transition. Default > 400",
- *  	"callback": "A function(c) where c is the instance of the Carousel. Called whenever a button is cdivcked.",
- *  	"register": "A function(c) where c is the instance of the Carousel. Called while the Carousel is registered.",
- *  	"carouselType" : "Value whether the Carousel should be Vertical or Linear Default > Linear ",
- *  	"circular" : "Value whether the Carousel should be rotated TRUE or FALSE Default > FALSE",
- * }
+options: {
+  	 "leftScroller" : "Button ID to which Left Navigation should be assigned. Default > leftButton",
+	 "rightScroller" : "Similarly for Right Navigation. Default > rightButton",
+	 "upScroller" : "Similarly for Top Navigation. Default > upButton",
+	 "downScroller" : "Similarly for  Bottom Navigation. Default > downButton",
+	 "visibleCount" : "Number of Panels available under the Inner Container for that are visible at a time. Auto Decided based on width if not set",
+	 "navigatorCount" : "Number of items to Scroll when clicked at a time. Default > visibleCount",
+	 "transitionTime" : "Sliding time for transition. Default > 400",
+	 "callback": "A function(c) where c is the instance of the Carousel. Called whenever a button is clicked.",
+	 "register": "A function(c) where c is the instance of the Carousel. Called while the Carousel is registered.",
+	 "carouselType" : "Type of the Carousel [Vertical, Linear]. Default > Linear ",
+	 "circular" : "To produce Circular effect. [TRUE, FALSE]. Default > FALSE"
+}
  * <div id="Carousel" class="carousel">
  *		<div class="carousel-container-out">
  *			<div class="carousel-content">
@@ -103,30 +36,70 @@
  *		</div>
  *	</div>
  */
+</script>
+
+
+<div style="width: 800px; text-align: right;">
+	<span id="leftButtonC1" class="carousel-button" style="float: left;"> < Move Left</span>
+	<span id="rightButtonC1" class="carousel-button">Move Right > </span>
+</div>
+<div id="verticalCarousel" class="carousel vertical-carousel">
+	<div class="carousel-container-out">
+		<div class="carousel-content">
+			<div class="carousel-container-in">
+				<div id="1" class="carousel-slider"><img src="20020630_03dx022_small.jpg_tn"/></div>
+				<div id="2" class="carousel-slider"><img src="20020630_03dx027_small.jpg_tn"/></div>
+				<div id="3" class="carousel-slider"><img src="20020703_00dx026_small.jpg_tn"/></div>
+				<div id="4" class="carousel-slider"><img src="20020703_00dx031_small.jpg_tn"/></div>
+				<div id="5" class="carousel-slider"><img src="20020705_01dx026_small.jpg_tn"/></div>
+				<div id="6" class="carousel-slider"><img src="20020713_00dx031_Deth_Flowr_small.jpg_tn"/></div>
+				<div id="7" class="carousel-slider"><img src="20020715_01dx020_small.jpg_tn"/></div>
+				<div id="8" class="carousel-slider"><img src="20020715_01dx024_small.jpg_tn"/></div>
+				<div id="9" class="carousel-slider"><img src="20020722_03dx081_[Chicago]_divncoln_Park_Conservatory_small.jpg_tn"/></div>
+				<div id="10" class="carousel-slider"><img src="20020722_03dx087_[Chicago]_divncoln_Park_Conservatory_small.jpg_tn"/></div>
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
 $('#linearCarousel').carousel({
-	"leftScroller": "leftButtonC1",
-	"rightScroller": "rightButtonC1",
-	"transitionTime": 300,
-	"callback": function(){},
-	"register": function(c){},
-	"carouselType" : "Linear",
-	"circular" : false
-});
-$('#circularCarousel').carousel({
 	"leftScroller": "leftButtonC2",
 	"rightScroller": "rightButtonC2",
 	"transitionTime": 300,
-	"callback": function(){},
-	"register": function(c){},
+	"callback": function(c){console.log(c)},
 	"carouselType" : "Linear",
 	"circular" : true
 });
- $('#verticalCarousel').carousel({
-	"upScroller": "leftButtonC3",
-	"downScroller": "rightButtonC3",
+</script>
+<br /><br />
+<div style="width: 800px; text-align: right;">
+	<span id="leftButtonC2" class="carousel-button" style="float: left;"> < Move Left</span>
+	<span id="rightButtonC2" class="carousel-button">Move Right > </span>
+</div>
+<div id="linearCarousel" class="carousel linear-carousel">
+	<div class="carousel-container-out">
+		<div class="carousel-content">
+			<div class="carousel-container-in">
+				<div id="1" class="carousel-slider"><img src="20020630_03dx022_small.jpg_tn"/></div>
+				<div id="2" class="carousel-slider"><img src="20020630_03dx027_small.jpg_tn"/></div>
+				<div id="3" class="carousel-slider"><img src="20020703_00dx026_small.jpg_tn"/></div>
+				<div id="4" class="carousel-slider"><img src="20020703_00dx031_small.jpg_tn"/></div>
+				<div id="5" class="carousel-slider"><img src="20020705_01dx026_small.jpg_tn"/></div>
+				<div id="6" class="carousel-slider"><img src="20020713_00dx031_Deth_Flowr_small.jpg_tn"/></div>
+				<div id="7" class="carousel-slider"><img src="20020715_01dx020_small.jpg_tn"/></div>
+				<div id="8" class="carousel-slider"><img src="20020715_01dx024_small.jpg_tn"/></div>
+				<div id="9" class="carousel-slider"><img src="20020722_03dx081_[Chicago]_divncoln_Park_Conservatory_small.jpg_tn"/></div>
+				<div id="10" class="carousel-slider"><img src="20020722_03dx087_[Chicago]_divncoln_Park_Conservatory_small.jpg_tn"/></div>
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+$('#verticalCarousel').carousel({
+	"upScroller": "leftButtonC1",
+	"downScroller": "rightButtonC1",
 	"transitionTime": 300,
-	"callback": function(){},
-	"register": function(c){},
+	"callback": function(c){console.log(c)},
 	"carouselType" : "Vertical",
 	"circular" : true
 });

@@ -7,7 +7,6 @@
  *  	"navigatorCount" : "Number of items you want to Scroll when clicked Default > visibleCount",
  *  	"transitionTime" : "Sliding time for transition. Default > 400",
  *  	"callback": "A function(c) where c is the instance of the Carousel. Called whenever a button is clicked.",
- *  	"register": "A function(c) where c is the instance of the Carousel. Called while the Carousel is registered.",
  *  	"carouselType" : "Value whether the Carousel should be Circular or Linear Default > Linear ",
  *  
  * }
@@ -170,8 +169,8 @@
 			options: {
 			    "leftScroller": "leftButton",
 			    "rightScroller": "rightButton",
-			    "upScroller": "topButton",
-			    "downScroller": "upButton",
+			    "upScroller": "upButton",
+			    "downScroller": "downButton",
 			    "transitionTime": 300,
 			    "carouselType": _c.carouselType.linear.typeName,
 			    "circular" : false
@@ -192,7 +191,6 @@
 				this.carouselType = options['carouselType'];
 				this.transitionTime = options['transitionTime'];
 				this.callback = options['callback'];
-				this.register = options['register'];
 				this.visibleCount = options['visibleCount'];
 				this.navigatorCount = options['navigatorCount'];
 			},
