@@ -19,6 +19,10 @@ Carousel comes with the following plugins:
   * [Autoadjustment]()
   * [Scroll]()
 
+# How to use 
+
+Visit this [link](https://kkabilank.wordpress.com/2015/05/03/jquery-carousel-2/) for more information on how to create and use it.
+
 # Download
 
 Needed 
