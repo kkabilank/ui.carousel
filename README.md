@@ -18,16 +18,17 @@ By default, the Carousel needs a basic HTML DOM Structure with the JScripting to
 
 Carousel comes with the following plugins:
 
-  * [Pagination Plugin]()
-  * [Autoadjustment Plugin]()
-  * [Autoscroll Plugin]()
+  * [Pagination]()
+  * [Controlled Pagination]()
+  * [Autoadjustment]()
+  * [Scroll]()
 
 # Download
 ===========
 
 Needed 
 
-  * [jQuery]()
-  * [jQuery UI]()
+  * [jQuery](http://jquery.com/)
+  * [jQuery UI](https://jqueryui.com/)
   * [jquery.ui.carousel.js or jquery.ui.carousel.min.js]()
   * [jquery.ui.carousel.css]()
