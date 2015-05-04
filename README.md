@@ -6,7 +6,7 @@ This is a jQuery UI plug-in for creating a smooth Carousel Scroller effect with 
 
 **Note:** This is has a dependency with jQuery and jQuery UI.
 
-**Release Notes:** v1.0 Supports only Carousel effect with list of thumbnails or thumbnail size HTML blocks. We are working towards creating One page navigation and few more in upcoming versions.
+**Release Notes:** v1.0 Supports only Carousel effect with list of thumbnails or thumbnail size HTML blocks. We are working towards creating One page navigation and few more in upcoming versions. But either way it does not stop you from implementing for others, you can customize by overriding the CSS with your Carousel ID.
 
 # Plugins
 
